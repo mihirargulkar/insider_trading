@@ -1,0 +1,1 @@
+{"transaction_type_columns": ["transaction_type_S - Sale", "transaction_type_S - Sale+OE"], "scaled_cols": ["last_price", "Qty", "shares_held", "Owned", "Value", "ticker_encoded"], "feature_order": ["last_price", "Qty", "shares_held", "Owned", "Value", "ticker_encoded", "transaction_type_S - Sale", "transaction_type_S - Sale+OE"]}
