@@ -25,7 +25,7 @@ DATA_DIR = SRC_DIR / "data" if (SRC_DIR / "data").exists() else BASE_DIR / "data
 MODELS_DIR = BASE_DIR / "models"
 
 st.set_page_config(
-    page_title="Stock Portfolio Simulator",
+    page_title="Insider Trading Strategy",
     page_icon="📈",
     layout="wide",
 )
@@ -232,7 +232,7 @@ def build_backtest_fig(start_date: datetime.date, benchmark_amount: float, bench
 
 
 # ---------- Layout ----------
-st.title("Stock Portfolio Simulator")
+st.title("Insider Trading Strategy")
 st.write("Build a portfolio, run backtests, and test insider-trade signals.")
 
 if "rows" not in st.session_state:
